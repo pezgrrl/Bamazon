@@ -14,3 +14,5 @@ git clone https://github.com/pezgrrl/Bamazon.git
 cd Bamazon
 npm install 
 node bamazonCustomer.js
+
+![2018-08-25 5](https://user-images.githubusercontent.com/38449432/44624687-aa020a80-a8a9-11e8-9273-b6d46272d5a5.png)
