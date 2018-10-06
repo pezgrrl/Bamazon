@@ -1,12 +1,12 @@
 Bamazon
-Description This application implements a simple command line based storefront using the npm inquirer package and the MySQL database backend together with the npm mysql package. The application presents a customer interface.
+In this activity, you'll be creating an Amazon-like storefront with the MySQL skills you learned this week. The app will take in orders from customers and deplete stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
 
-MySQL Database Setup In order to run this application, you should have the MySQL database already set up on your machine. If you don't, visit the MySQL installation page to install the version you need for your operating system. Once you have MySQL isntalled, you will be able to create the Bamazon database and the products table with the SQL code found in Bamazon.sql. Run this code inside your MySQL client like Sequel Pro to populate the database, then you will be ready to proceed with running the Bamazon customer and manager interfaces.
+Make sure you save and require the MySQL and Inquirer npm packages, your app will need them for data input and storage.
 
 ![2018-08-25](https://user-images.githubusercontent.com/38449432/44624641-37dcf600-a8a8-11e8-8c24-748e7aeace51.png)
 ![2018-08-25 2](https://user-images.githubusercontent.com/38449432/44624683-6a3b2300-a8a9-11e8-8345-a16dd8aa210c.png)
 
-Customer Interface The customer interface allows the user to view the current inventory of store items: item IDs, descriptions, department in which the item is located and price. The user is then able to purchase one of the existing items by entering the item ID and the desired quantity. If the selected quantity is currently in stock, the user's order is fulfilled, displaying the total purchase price and updating the store database. If the desired quantity is not available, the user is prompted to modify their order.
+Customer Interface The customer interface allows the user to view the current inventory of store items: item IDs, descriptions, department where the item is located and price. The user is then able to purchase one of the items by entering the item ID and the desired quantity. If the selected quantity is currently in stock, the user's order is fulfilled. The total purchase price is displayed and the store database is updated. If the desired quantity is not available, the user is then prompted to modify their order.
 
 To run the customer interface please follow the steps below:
 
